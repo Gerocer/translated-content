@@ -9,15 +9,15 @@ slug: Web/API/WebGLRenderingContext/bindFramebuffer
 
 ## 语法
 
-```plain
-void gl.bindFramebuffer(target, framebuffer);
+```js
+gl.bindFramebuffer(target, framebuffer);
 ```
 
 ### 参数
 
 - target
 
-  - : {{domxref("GLenum")}} 指定绑定点 (目标)。可能的值为：
+  - : {{domxref("GLenum")}} 指定绑定点（目标）。可能的值为：
 
     - `gl.FRAMEBUFFER`: 收集用于渲染图像的颜色，alpha，深度和模板缓冲区的缓冲区数据存储。
     - 当使用 {{domxref("WebGL2RenderingContext", "WebGL 2 context", "", 1)}} 时，可以使用以下值：
@@ -30,7 +30,7 @@ void gl.bindFramebuffer(target, framebuffer);
 
 ### 返回值
 
-None.
+无。
 
 ### 异常
 
