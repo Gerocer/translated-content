@@ -9,8 +9,8 @@ slug: Web/API/WebGLRenderingContext/activeTexture
 
 ## 句法
 
-```plain
-void gl.activeTexture(texture);
+```js-nolint
+activeTexture(texture)
 ```
 
 ### 参数
@@ -20,11 +20,11 @@ void gl.activeTexture(texture);
 
 ### 返回值
 
-无返回值。
+无。
 
 ### 异常
 
-如果 _texture_ 不是 `gl.TEXTUREI(` _I_ 在 0 到 `gl.MAX_COMBINED_TEXTURE_IMAGE_UNITS - 1` 范围内)，一个 `gl.INVALID_ENUM` 错误将被抛出。
+如果 _texture_ 不是 `gl.TEXTUREI` (_I_ 在 0 到 `gl.MAX_COMBINED_TEXTURE_IMAGE_UNITS - 1` 范围内)，一个 `gl.INVALID_ENUM` 错误将被抛出。
 
 ## 示例
 
