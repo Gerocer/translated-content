@@ -163,7 +163,7 @@ body {
 
 ## 参见
 
-- [Media queries](/zh-CN/docs/Web/CSS/Media_Queries)
-- [Using media queries](/zh-CN/docs/Web/CSS/Media_Queries/Using_media_queries)
-- [CSS `resolution` media query](/zh-CN/docs/Web/CSS/@media/resolution)
+- [媒体查询](/zh-CN/docs/Web/CSS/Media_Queries)
+- [使用媒体查询](/zh-CN/docs/Web/CSS/Media_Queries/Using_media_queries)
+- [CSS 媒体查询的 `resolution`](/zh-CN/docs/Web/CSS/@media/resolution)
 - {{cssxref("image-resolution")}} 属性
