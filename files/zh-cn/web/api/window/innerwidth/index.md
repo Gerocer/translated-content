@@ -11,7 +11,7 @@ slug: Web/API/Window/innerWidth
 
 ## 语法
 
-```plain
+```js
 let intViewportWidth = window.innerWidth;
 ```
 
